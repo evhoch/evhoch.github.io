@@ -107,7 +107,7 @@ footer {
 
 img {
     max-width: 100%; /* Ensures the image doesn’t exceed the width of its container */
-    width: 200px; /* Adjust this value to your desired width */
+    width: 400px; /* Adjust this value to your desired width */
     height: auto; /* Maintains the image’s aspect ratio */
     border-radius: 8px; /* Optional: Rounds corners */
 }
