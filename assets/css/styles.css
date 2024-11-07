@@ -7,6 +7,7 @@
 
 /* Body styling */
 body {
+    padding-top: 65px;
     font-family: 'Roboto', sans-serif;
     line-height: 1.6;
     background-color: #f7f7f7;
@@ -15,6 +16,7 @@ body {
 
 /* Navigation bar styling */
 nav {
+    height: 60px;
     background-color: transparent;
     position: fixed; /* Keeps nav fixed at the top */
     top: 20px;
