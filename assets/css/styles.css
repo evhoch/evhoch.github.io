@@ -1,5 +1,5 @@
 /* Basic reset */
-body, ul, nav, footer {
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -7,70 +7,87 @@ body, ul, nav, footer {
 
 /* Body styling */
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Roboto', sans-serif;
     line-height: 1.6;
-    background-color: #f4f4f4;
+    background-color: #f7f7f7;
     color: #333;
 }
 
 /* Navigation bar styling */
 nav {
-    background-color: #333;
-    padding: 10px 0;
+    background-color: transparent;
+    position: fixed; /* Keeps nav fixed at the top */
+    top: 20px;
+    left: 20px;
+    width: auto;
+    z-index: 10;
+}
+
+nav .nav-container {
+    display: flex;
+    align-items: center;
+}
+
+nav .logo {
+    font-weight: 700;
+    font-size: 1.5em;
+    color: #333;
+    text-decoration: none;
+    margin-right: 30px; /* Space between logo and links */
 }
 
 nav ul {
-    list-style-type: none; /* Remove bullets */
-    margin: 0;
-    padding: 0;
-    text-align: center; /* Center align the items */
-}
-
-nav ul li {
-    display: inline; /* Display items in a horizontal line */
-    margin: 0 15px; /* Space between links */
+    list-style: none;
+    display: flex;
+    gap: 20px; /* Space between each link */
 }
 
 nav ul li a {
-    color: #fff; /* White text color */
-    text-decoration: none; /* Remove underline */
-    font-weight: bold;
-    padding: 5px 10px; /* Padding for better clickable area */
-    transition: color 0.3s ease; /* Smooth transition for hover */
+    color: #333;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 1em;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s; /* Smooth transition for hover effects */
 }
 
 nav ul li a:hover {
-    color: #ffa500; /* Change color on hover */
+    background-color: #333;
+    color: #fff;
 }
 
 /* Header styling */
 header {
     text-align: center;
-    padding: 20px;
-    background-color: #444;
-    color: #fff;
+    padding: 60px 20px;
+    background-color: #fff;
+    width: 100%;
+    margin-top: 100px; /* Space below fixed navbar */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 header h1 {
-    font-size: 2em;
+    font-size: 2.5em;
+    color: #333;
     margin-bottom: 10px;
 }
 
 header p {
     font-size: 1.2em;
-    color: #ddd;
+    color: #666;
 }
 
-/* Main section styling */
+/* Section styling */
 section {
-    padding: 20px;
+    padding: 40px 20px;
     text-align: center;
-    max-width: 800px;
-    margin: auto;
     background-color: #fff;
-    border-radius: 5px;
+    border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    margin-top: 20px;
+    margin: 20px 0;
+    max-width: 1100px;
+    margin: 20px auto;
 }
 
 /* Footer styling */
@@ -78,28 +95,10 @@ footer {
     background-color: #333;
     color: #fff;
     text-align: center;
-    padding: 10px 0;
-    position: relative;
-    bottom: 0;
+    padding: 15px 0;
     width: 100%;
     font-size: 0.9em;
-}
-
-/* General link styling */
-a {
-    color: #333;
-}
-
-a:hover {
-    color: #ffa500;
-}
-
-/* Additional styling for headings and text */
-h1, h2, h3 {
-    color: #333;
-}
-
-p {
-    font-size: 1em;
-    line-height: 1.6;
+    position: relative;
+    bottom: 0;
+    margin-top: 20px;
 }
