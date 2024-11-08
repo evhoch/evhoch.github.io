@@ -65,7 +65,7 @@ header {
     padding: 60px 20px;
     background-color: #fff;
     width: 100%;
-    margin-top: 100px; /* Space below fixed navbar */
+    margin-top: 0px; /* Space below fixed navbar */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
