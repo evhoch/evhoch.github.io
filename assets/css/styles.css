@@ -15,27 +15,30 @@ body {
 }
 
 /* Navigation bar styling */
+/* Navigation bar styling */
 nav {
     height: 60px;
-    background-color: transparent;
+    background-color: #333; /* Set to a solid color */
     position: fixed; /* Keeps nav fixed at the top */
-    top: 0px;
-    left: 20px;
-    width: auto;
+    top: 0; /* Set it to the very top */
+    left: 0;
+    width: 100%; /* Full width */
     z-index: 10;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional shadow for depth */
 }
 
 nav .nav-container {
     display: flex;
     align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
 }
 
 nav .logo {
     font-weight: 700;
     font-size: 1.5em;
-    color: #333;
+    color: #ffa500;
     text-decoration: none;
-    margin-right: 30px; /* Space between logo and links */
 }
 
 nav ul {
@@ -45,7 +48,7 @@ nav ul {
 }
 
 nav ul li a {
-    color: #333;
+    color: #fff; /* White text color to stand out against dark background */
     text-decoration: none;
     font-weight: 500;
     font-size: 1em;
@@ -55,13 +58,13 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    background-color: #333;
-    color: #fff;
+    background-color: #ffa500; /* Optional: Highlight on hover */
+    color: #333;
 }
+
 
 /* Header styling */
 header {
-    margin-top: 80px;
     text-align: center;
     padding: 60px 20px;
     background-color: #fff;
