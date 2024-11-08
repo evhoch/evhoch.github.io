@@ -19,7 +19,7 @@ nav {
     height: 60px;
     background-color: transparent;
     position: fixed; /* Keeps nav fixed at the top */
-    top: 20px;
+    top: 0px;
     left: 20px;
     width: auto;
     z-index: 10;
