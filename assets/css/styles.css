@@ -368,7 +368,7 @@ header p {
 }
 
 .skills-category h2::before, .job h3::before {
-    content: "★"; /* Add an icon or shape before each title */
+    /*content: "★"; /* Add an icon or shape before each title */
     position: absolute;
     left: 0;
     color: #ffa500;
