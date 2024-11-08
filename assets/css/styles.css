@@ -29,7 +29,7 @@ nav .nav-container {
     display: flex;
     align-items: center;
     justify-content: flex-start;
-    padding: 20px 0 20px 30px; /* Top, right, bottom, left */
+    padding: 10px 0 20px 30px; /* Top, right, bottom, left */
 }
 
 nav .logo {
@@ -218,4 +218,13 @@ img {
 .project-card .project-link:hover {
     background-color: #ffa500;
     color: #333;
+}
+
+
+.project-image {
+    width: 100%; /* Makes the image take the full width of the container */
+    height: auto; /* Maintains the aspect ratio */
+    border-radius: 8px; /* Optional: Rounds the corners */
+    margin-top: 15px; /* Adds some space between the text and the image */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Adds a subtle shadow */
 }
