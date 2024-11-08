@@ -28,46 +28,61 @@
         <p>Explore some of the projects I have worked on, showcasing my skills in data science, problem solving, and more.</p>
     </header>
 
-    <!-- Projects Section -->
     <section class="projects-section">
-        <div class="projects-grid">
+        <h1>My Projects</h1>
+        <p>Explore the projects I've worked on, showcasing my skills in data science, problem-solving, and more.</p>
+    
+        <div class="projects-list">
             <!-- Project 1 -->
-            <div class="project-card">
-                <h3>Stratification App</h3>
-                <p>Brief description of the project. Explain what it does, tools used, and any other relevant info.</p>
-                <a href="https://bulletapp.streamlit.app/" class="project-link">View Project</a>
+            <div class="project-item">
+                <h3>Web App for Fairer Stratification</h3>
+                <p>As Squadron Commander, I was faced with the challenge of ranking every cadet in my squadron in a process known as "Stratification." This process is usually highly subjective and leaves people frustrated with the squadron and the Academy as a whole, lowering unit morale. This app implemented an iterative-reranking methodology that solved two of the biggest issues with the stratification process: choice overload and inconsistent ratings.</p>
+                <p>This app solves these problems by presenting the user with a series of head-to-head comparisons, where the user must choose which package is better. Then, on the back end, a score is updated, using the same ranking algorithm as professional chess. This project is an example of how data science can make outcomes more fair and processes more effective. <br> Due to the ongoing usage of the app and its containment of personally identifiable information, I can't add a link. However, here is a screenshot of the frontend.</p>
+                <img src="assets/images/Screenshot 2024-11-07 230130.png" alt="An example of the iterative reranking mechanism in action." class="project-image">
             </div>
-
+    
             <!-- Project 2 -->
-            <div class="project-card">
-                <h3>News Scraping and Summarizing Web App</h3>
-                <p>Brief description of the project. Explain what it does, tools used, and any other relevant info.</p>
-                <a href="https://0ol5ae-evan-hoch.shinyapps.io/python_summarizer/" class="project-link">View Project</a>
-            </div>
-
-            <!-- Project 3 -->
-            <div class="project-card">
-                <h3>Grader Fidelity Data Analytics</h3>
-                <p>Brief description of the project. Explain what it does, tools used, and any other relevant info.</p>
-                <a href="#" class="project-link">View Project</a>
-            </div>
-
-            <!-- Project 4 -->
-            <div class="project-card">
-                <h3>Offensive Cyber Research and Development</h3>
-                <p>Brief description of the project. Explain what it does, tools used, and any other relevant info.</p>
-                <img src="assets/images/images.jpg" alt="Infrastructure Reliability Research" class="project-image">
-            </div>
-
-            <!-- Project 5 -->
-            <div class="project-card">
-                <h3>Infrastructure Reliability Research and Modelling</h3>
-                <p>In conjunction with a team of data science and civil engineering majors, I helped model infrastructure failure rates, drawing on industry data and the experiences of professionals at Buckley Space Force Base to build a monte carlo simulation and determine which components were most likely to fail.</p>
-                <img src="assets/images/Mountainview-Project1.jpg" alt="Infrastructure Reliability Research" class="project-image">
+            <div class="project-item">
+                <h3>Process Optimization and Data Policy Research at Air Force Central Command  (AFCENT)</h3>
+                <p>During the summer of 2024, me and another cadet integrated with civilian and military data scientists in AFCENT Headquarters helping to optimize aircraft deployments during the Israel-Hamas crisis. We developed a program to aggregate data more efficiently saving dozens of hours each week and helping provide near real time data to the AFCENT commander and the Chairman of the Joint Chiefs of staff. We also helped shape AFCENT policy, providing inputs on policies such as API standards the creation of a command wide data catalogue. This research experience taught me the incredible value that a relatively simple program can have when deployed in the right place as well as the need for policies that support the implementation of such programs. </p>
+                <img src="assets/images/Image (29).jpg" alt="The data analysts at the AFCENT headquarters." class="project-image">
             </div>
             
+            <!-- Project 3 -->
+            <div class="project-item">
+                <h3>News Scraping and Summarizing Web App</h3>
+                <p>This app was one of the first programs I ever deployed for widespread usage. While doing research with the Colorado Springs Space Information Sharing and Analysis Center, I realized they could automate large portions of their workflow by identifying and summarizing relevant news articles automatically. This app automates the scraping process and connects to the OpenAI API, returning articles relevant to given keywords and providing summaries of specified lengths.</p>
+                <p>This project demonstrates how data science can automate time-consuming processes, freeing analysts to do more impactful work and allowing non-profits to use limited resources more effectively.</p>
+                <a href="https://0ol5ae-evan-hoch.shinyapps.io/python_summarizer/" class="project-link" target="_blank">View Project</a>
+            </div>
+    
+            <!-- Project 4 -->
+            <div class="project-item">
+                <h3>Grader Fidelity Data Analytics</h3>
+                <img src="assets/images/Picture1.png" alt="A Chart Showing the Score Inflations Across Different Squadrons" class="project-image">
+                <p>As the Standardization and Evaluations Element Leader, I was tasked with grading military knowledge tests. Being concerned about the standardization across the school, I built a python script that analyzed more than 10,000 tests, comparing the correct answer, the given answers, and the scores assigned by the grader. Using this process, I found hundreds of innaccuracies, inflating scores in some squadrons. Because of the inherently competitive nature of the Academy, this was equivalent to deflating the scores of squadrons with fair graders, and had a detrimental impact on the cadets' ability to get their career and base preferences. This program allowed me to analyze data on a scale that would be impossible for a single person and make the system fairer and more consistent for everyone.</p>
+                <a href="#" class="project-link" target="_blank">View Project</a>
+            </div>
+    
+            <!-- Project 5 -->
+            <div class="project-item">
+                <h3>Offensive Cyber Research and Development</h3>
+                <img src="assets/images/cyber-research.jpg" alt="Offensive Cyber Research and Development" class="project-image">
+                <p>This project worked on the development of offensive cyber programs for the U.S. military, combining state of the art open source LLM technology with common cyber offensive tools to effectively access adversary networks or conduct securtiy tests on friendly ones. In conjunction with 2 other cadets, I hosted and finetuned an LLM to ingest email data and return convincing responses. We built an API, which was accessed by an executable to run on the target's computer, sending realistic spam emails capable of delivering and executing code. This project leveraged the power of LLMs in the cyber domain, proving that conventional techniques like spam emails can be effective when combined with LLM technology.</p>
+                <a href="#" class="project-link" target="_blank">View Project</a>
+            </div>
+    
+            <!-- Project 6 -->
+            <div class="project-item">
+                <h3>Infrastructure Reliability Research and Modelling</h3>
+                <img src="assets/images/infrastructure-research.jpg" alt="Infrastructure Reliability Research" class="project-image">
+                <p>In collaboration with a team of data science and civil engineering majors, I helped model infrastructure failure rates. By drawing on industry data and insights from professionals at Buckley Space Force Base, we built a Monte Carlo simulation to determine which components were most likely to fail. This project provided insights into infrastructure reliability, critical for long-term planning and resource allocation.</p>
+                <a href="#" class="project-link" target="_blank">View Project</a>
+            </div>
         </div>
     </section>
+    
+    
 
     <!-- Footer -->
     <footer>
