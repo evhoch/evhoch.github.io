@@ -354,6 +354,18 @@ header {
     color: #666;
 }
 
+/* General list styling for Resume and Skills sections */
+.resume-section ul, .skills-section ul {
+    list-style-type: none; /* Removes bullet points */
+    padding-left: 0; /* Removes default left padding */
+    margin-left: 0; /* Ensures alignment with surrounding content */
+}
+
+.resume-section ul li, .skills-section ul li {
+    margin-bottom: 10px; /* Adds space between list items */
+}
+
+
 .contact-info a {
     color: #333;
     text-decoration: none;
