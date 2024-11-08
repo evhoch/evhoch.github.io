@@ -30,6 +30,7 @@ nav .nav-container {
     align-items: center;
     justify-content: flex-start;
     padding-left: 30px;
+    padding: 20px;
 }
 
 nav .logo {
