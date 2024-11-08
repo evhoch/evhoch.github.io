@@ -29,8 +29,7 @@ nav .nav-container {
     display: flex;
     align-items: center;
     justify-content: flex-start;
-    padding-left: 30px;
-    padding: 20px;
+    padding: 30px 0 20px 30px; /* Top, right, bottom, left */
 }
 
 nav .logo {
