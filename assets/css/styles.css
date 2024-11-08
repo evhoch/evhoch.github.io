@@ -367,13 +367,6 @@ header p {
     padding-left: 25px;
 }
 
-.skills-category h2::before, .job h3::before {
-    /*content: "★"; /* Add an icon or shape before each title */
-    position: absolute;
-    left: 0;
-    color: #ffa500;
-    font-size: 1.2em;
-}
 
 /* Optional Hover Effects for Lists */
 .skills-section ul li:hover, .resume-section ul li:hover {
