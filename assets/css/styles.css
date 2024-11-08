@@ -275,48 +275,57 @@ header p {
 }
 
 
-.skills-section {
-    max-width: 800px;
+/* Resume Section Styling */
+.resume-section, .skills-section {
+    max-width: 900px;
     margin: 40px auto;
-    padding: 20px;
+    padding: 30px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
     color: #333;
 }
 
-.skills-category {
+.resume-section h2, .skills-section h2 {
+    font-size: 2em;
+    color: #333;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #ffa500;
+    padding-bottom: 10px;
+    text-align: left;
+}
+
+.resume-section ul, .skills-section ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.resume-section ul li, .skills-section ul li {
+    margin-bottom: 10px;
+    padding: 5px 0;
+}
+
+.resume-section .job, .skills-section .skills-category {
     margin-bottom: 30px;
+    padding: 15px;
+    border-left: 3px solid #ffa500;
+    background-color: #f9f9f9;
+    border-radius: 5px;
 }
 
-.skills-category h2 {
-    font-size: 1.8em;
+/* Enhanced Job and Skills Category Titles */
+.job h3, .skills-category h2 {
+    font-size: 1.5em;
     color: #333;
-    margin-bottom: 10px;
+    margin-bottom: 8px;
+    display: flex;
+    align-items: center;
 }
 
-.skills-category ul {
-    list-style-type: disc;
-    padding-left: 20px;
-    color: #666;
-}
-
-.skills-category ul li {
-    margin-bottom: 10px;
-    line-height: 1.6;
-}
-
-.skills-category strong {
-    color: #333;
-}
-
-
-/* Header Styling */
-header {
-    text-align: center;
-    padding: 20px;
-}
-
+/* Download Button */
 .download-button {
     display: inline-block;
-    margin-top: 10px;
+    margin-top: 20px;
     padding: 10px 20px;
     background-color: #333;
     color: #fff;
@@ -329,49 +338,47 @@ header {
     background-color: #ffa500;
 }
 
-/* Resume Section Styling */
-.resume-section {
-    max-width: 800px;
+/* Contact Info Styling */
+.contact-info {
+    max-width: 600px;
     margin: 40px auto;
-    padding: 20px;
-    font-size: 1em;
-    color: #333;
+    text-align: center;
+    font-size: 1.2em;
 }
 
-.resume-section h2 {
-    font-size: 1.8em;
-    color: #333;
-    margin-bottom: 15px;
-}
-
-.job h3, .contact-info p, .resume-section ul, .resume-section p {
-    margin-bottom: 10px;
-}
-
-.resume-section ul {
-    list-style: disc inside;
-    margin-left: 20px;
-    color: #666;
-}
-
-/* General list styling for Resume and Skills sections */
-.resume-section ul, .skills-section ul {
-    list-style-type: none; /* Removes bullet points */
-    padding-left: 0; /* Removes default left padding */
-    margin-left: 0; /* Ensures alignment with surrounding content */
-}
-
-.resume-section ul li, .skills-section ul li {
-    margin-bottom: 10px; /* Adds space between list items */
-}
-
-
-.contact-info a {
+.contact-info p, .contact-info a {
+    margin: 20px 0;
     color: #333;
     text-decoration: none;
 }
 
 .contact-info a:hover {
     color: #ffa500;
-    text-decoration: underline;
+}
+
+/* Additional Styling for the List Items */
+.skills-section ul li, .resume-section ul li {
+    color: #666;
+    font-size: 1.1em;
+}
+
+.skills-category h2, .job h3 {
+    position: relative;
+    padding-left: 25px;
+}
+
+.skills-category h2::before, .job h3::before {
+    content: "★"; /* Add an icon or shape before each title */
+    position: absolute;
+    left: 0;
+    color: #ffa500;
+    font-size: 1.2em;
+}
+
+/* Optional Hover Effects for Lists */
+.skills-section ul li:hover, .resume-section ul li:hover {
+    color: #333;
+    background-color: #f0f0f0;
+    transition: color 0.3s ease, background-color 0.3s ease;
+    padding-left: 10px;
 }
