@@ -369,9 +369,9 @@ header p {
 
 
 /* Optional Hover Effects for Lists */
-.skills-section ul li:hover, .resume-section ul li:hover {
+/* .skills-section ul li:hover, .resume-section ul li:hover {
     color: #333;
     background-color: #f0f0f0;
     transition: color 0.3s ease, background-color 0.3s ease;
     padding-left: 10px;
-}
+} */
