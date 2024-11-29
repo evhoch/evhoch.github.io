@@ -37,7 +37,7 @@
             <div class="project-item">
                 <h3>Web App for Fairer Stratification</h3>
                 <p>As Squadron Commander, I was faced with the challenge of ranking every cadet in my squadron in a process known as "Stratification." This process is usually highly subjective and leaves people frustrated with the squadron and the Academy as a whole, lowering unit morale. This app implemented an iterative-reranking methodology that solved two of the biggest issues with the stratification process: choice overload and inconsistent ratings.</p>
-                <p>This app solves these problems by presenting the user with a series of head-to-head comparisons, where the user must choose which package is better. Then, on the back end, a score is updated, using the same ranking algorithm as professional chess. This project is an example of how data science can make outcomes more fair and processes more effective. <br> Due to the ongoing usage of the app and its containment of personally identifiable information, I can't add a link. However, here is a screenshot of the frontend.</p>
+                <p>This app solves these problems by presenting the user with a series of head-to-head comparisons, where the user must choose which package is better. Then, in a database in Google Firestore, a score is updated using the same ranking algorithm as professional chess. This project is an example of how data science can make outcomes more fair and processes more effective. <br> Due to the ongoing usage of the app and its containment of personally identifiable information, I can't add a link. However, here is a screenshot of the frontend.</p>
                 <img src="assets/images/Screenshot 2024-11-07 230130.png" alt="An example of the iterative reranking mechanism in action." class="project-image">
             </div>
     
@@ -51,7 +51,7 @@
             <!-- Project 3 -->
             <div class="project-item">
                 <h3>News Scraping and Summarizing Web App</h3>
-                <p>This app was one of the first programs I ever deployed for widespread usage. While doing research with the Colorado Springs Space Information Sharing and Analysis Center, a local non profit, I realized they could automate large portions of their workflow by identifying and summarizing relevant news articles automatically. This app automates the scraping process and connects to the OpenAI API, returning articles relevant to given keywords and providing summaries of specified lengths.</p>
+                <p>This app was one of the first programs I ever deployed for a customer organization. Please forgive its sparse appearance. While doing research with the Colorado Springs Space Information Sharing and Analysis Center, a local nonprofit, I realized they could automate large portions of their workflow by identifying and summarizing relevant news articles automatically. This app automates the scraping process and connects to the OpenAI API, returning articles relevant to given keywords and providing summaries of specified lengths.</p>
                 <p>This project demonstrates how data science can automate time-consuming processes, freeing analysts to do more impactful work and allowing non-profits to use limited resources more effectively.</p>
                 <a href="https://0ol5ae-evan-hoch.shinyapps.io/python_summarizer/" class="project-link" target="_blank">View Project</a>
             </div>
@@ -59,21 +59,28 @@
             <!-- Project 4 -->
             <div class="project-item">
                 <h3>Grader Fidelity Data Analytics</h3>
-                <img src="assets/images/Picture1.png" alt="A Chart Showing the Score Inflations Across Different Squadrons" class="project-image">
-                <p>As the Standardization and Evaluations Element Leader, I was tasked with grading military knowledge tests. Being concerned about the standardization across the school, I built a python script that analyzed more than 10,000 tests, comparing the correct answer, the given answers, and the scores assigned by the grader. Using this process, I found hundreds of innaccuracies, inflating scores in some squadrons. Because of the inherently competitive nature of the Academy, this was equivalent to deflating the scores of squadrons with fair graders, and had a detrimental impact on the cadets' ability to get their career and base preferences. In order to present these findings to upper leadership, I used Tableau to create a comprehensive data story that was interpetable to non-technical professionals. This program allowed me to analyze and present data on a scale that would be impossible for a single person, bringing inequities to light and making the system fairer and more consistent for everyone.</p>
+                <figure>
+                    <img src="assets/images/Picture1.png" alt="A Chart Showing the Score Inflations Across Different Squadrons" class="project-image">
+                    <figcaption>A chart showing the score inflations across different squadrons.</figcaption>
+                  </figure>
+                  
+                <p>As the Standardization and Evaluations Element Leader, I was tasked with grading military knowledge tests. Being concerned about the standardization across the school, I built a python script that analyzed more than 10,000 tests, comparing the correct answer, the given answers, and the scores assigned by the grader. Using this process, I found hundreds of innaccuracies, inflating scores in some squadrons by as much as 10%. In order to present these findings to upper leadership, I used Tableau to create a comprehensive data story that was interpetable to non-technical professionals. This program allowed me to analyze and present data on a scale that would be impossible for a single person, bringing inequities to light and making the system fairer and more consistent for everyone.</p>
             </div>
     
             <!-- Project 5 -->
             <div class="project-item">
                 <h3>Offensive Cyber Research and Development</h3>
                 <img src="assets/images/images.jpg" alt="Offensive Cyber Research and Development" class="project-image">
-                <p>This project is focused on the development of offensive cyber programs for the U.S. military. It combines state of the art open source LLM technology with common cyber offensive tools to effectively access adversary networks or conduct security tests on friendly ones. In conjunction with 2 other cadets, I hosted and finetuned an LLM to ingest email data and return convincing responses. We built an API, which was accessed by an executable to run on the target's computer, sending realistic spam emails capable of delivering and executing code. This project leveraged the power of LLMs in the cyber domain, proving that conventional techniques like spam emails can be effective when combined with LLM technology.</p>
+                <p>This ongoing project is focused on the development of offensive cyber programs for the U.S. military. It combines state of the art open source LLM technology with common cyber offensive tools to effectively access adversary networks or conduct security tests on friendly ones. So far 2 other cadets and I have hosted and finetuned an LLM to ingest email data and return convincing responses. We built an API, which is accessed by an executable to run on the target's computer, sending realistic spam emails capable of delivering and executing code. This project leverages the power of LLMs in the cyber domain, proving that conventional techniques like spam emails can be effective when combined with LLM technology.</p>
             </div>
     
             <!-- Project 6 -->
             <div class="project-item">
                 <h3>Infrastructure Reliability Research and Modelling</h3>
-                <img src="assets/images/Mountainview-Project1.jpg" alt="An aerial view of the infrastructure at Buckley Space Force Base" class="project-image">
+                <figure>
+                    <img src="assets/images/Buckley.jpg" alt="An on-the-ground view of the infrastructure at Buckley Space Force Base" class="project-image">
+                    <figcaption>An aerial view of the infrastructure at Buckley Space Force Base.</figcaption>
+                  </figure>                  
                 <p>In collaboration with a team of data science and civil engineering majors, I helped model infrastructure failure rates at Buckley Space Force base. By drawing on industry data and insights from maintenance professionals, we built a Monte Carlo simulation to determine which components were most likely to fail. This project provided insights into infrastructure reliability, critical for long-term planning and resource allocation. This project was one of my first steps into data science, and showed the potential for rigorous predictive modelling to save taxpayer dollars and finite labor, resulting in a more effective and efficient mission.</p>
             </div>
         </div>
